@@ -1,4 +1,3 @@
-
 import axios from 'axios';
 
 let handler = async (m, { conn }) => {
@@ -17,8 +16,8 @@ let handler = async (m, { conn }) => {
     conn.reply(m.chat, jokeMessage, m);
 };
 
-handler.help = ['نكتة];
-handler.tags = ['Tool'];
+handler.help = ['joke'];
+handler.tags = ['tools'];
 handler.command = /^(نكتة)$/i;
 
 export default handler;
