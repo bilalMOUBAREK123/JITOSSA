@@ -177,9 +177,9 @@ const handler = async (m, { command, usedPrefix, conn, text }) => {
   }
 };
 
-handler.help = ["play"]
+handler.help = ["play.1"]
 handler.tags = [ai];
-handler.command = /^(play)$/i;
+handler.command = /^(play.1)$/i;
 export default handler;
 
 async function isValidYouTubeLink(link) {
